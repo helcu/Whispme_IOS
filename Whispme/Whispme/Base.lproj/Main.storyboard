@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="-575" y="1689"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="4c6-rn-Oao">
             <objects>
-                <viewController id="pfe-Bq-ga8" sceneMemberID="viewController">
+                <viewController id="pfe-Bq-ga8" customClass="MapViewController" customModule="Whispme" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Sv-a4-bJt"/>
                         <viewControllerLayoutGuide type="bottom" id="sqV-7b-jg3"/>
@@ -118,6 +118,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XHf-Tg-Enj"/>
+                    <connections>
+                        <outlet property="areaMapView" destination="FBx-Aq-ela" id="upb-DA-7iY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Gf-qf-oKA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -244,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sNE-kE-6xA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1702" y="3846"/>
+            <point key="canvasLocation" x="1353" y="3842"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MQn-Mx-AZv">
@@ -262,7 +265,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dnr-Fy-XhH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1702" y="4532"/>
+            <point key="canvasLocation" x="2058" y="3842"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="SYy-Th-or0">
@@ -381,13 +384,17 @@
                                     <segue destination="ocF-Oh-gq6" kind="show" id="ooh-En-Rw9"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6cI-P5-zFg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="593"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dwp-lU-RAm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="124"/>
+            <point key="canvasLocation" x="896.79999999999995" y="123.68815592203899"/>
         </scene>
     </scenes>
     <resources>
