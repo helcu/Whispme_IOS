@@ -16,6 +16,11 @@
 		8404E9FC1F0F4479008A04B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8404E9FB1F0F4479008A04B4 /* MapKit.framework */; };
 		8404E9FE1F0F5A0A008A04B4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404E9FD1F0F5A0A008A04B4 /* MapViewController.swift */; };
 		8404EA001F0F5CBE008A04B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404E9FF1F0F5CBE008A04B4 /* ViewController.swift */; };
+		8404EA021F0FBDA7008A04B4 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404EA011F0FBDA7008A04B4 /* UserViewController.swift */; };
+		8404EA081F0FC2A6008A04B4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404EA071F0FC2A6008A04B4 /* NewsViewController.swift */; };
+		8404EA0A1F0FCE76008A04B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8404EA091F0FCE76008A04B4 /* AVFoundation.framework */; };
+		8404EA0C1F0FCF2D008A04B4 /* NewWhispViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404EA0B1F0FCF2D008A04B4 /* NewWhispViewController.swift */; };
+		8404EA0E1F0FD6CF008A04B4 /* AddWhispViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404EA0D1F0FD6CF008A04B4 /* AddWhispViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		8404E9FB1F0F4479008A04B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8404E9FD1F0F5A0A008A04B4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8404E9FF1F0F5CBE008A04B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8404EA011F0FBDA7008A04B4 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		8404EA071F0FC2A6008A04B4 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		8404EA091F0FCE76008A04B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8404EA0B1F0FCF2D008A04B4 /* NewWhispViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWhispViewController.swift; sourceTree = "<group>"; };
+		8404EA0D1F0FD6CF008A04B4 /* AddWhispViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWhispViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8404EA0A1F0FCE76008A04B4 /* AVFoundation.framework in Frameworks */,
 				8404E9FC1F0F4479008A04B4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +155,10 @@
 				8404E9CD1F0F239E008A04B4 /* Main.storyboard */,
 				8404E9D21F0F239E008A04B4 /* LaunchScreen.storyboard */,
 				8404E9FD1F0F5A0A008A04B4 /* MapViewController.swift */,
+				8404EA011F0FBDA7008A04B4 /* UserViewController.swift */,
+				8404EA071F0FC2A6008A04B4 /* NewsViewController.swift */,
+				8404EA0B1F0FCF2D008A04B4 /* NewWhispViewController.swift */,
+				8404EA0D1F0FD6CF008A04B4 /* AddWhispViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -159,6 +174,7 @@
 		8404E9FA1F0F4479008A04B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8404EA091F0FCE76008A04B4 /* AVFoundation.framework */,
 				8404E9FB1F0F4479008A04B4 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -299,7 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8404EA001F0F5CBE008A04B4 /* ViewController.swift in Sources */,
+				8404EA0C1F0FCF2D008A04B4 /* NewWhispViewController.swift in Sources */,
+				8404EA021F0FBDA7008A04B4 /* UserViewController.swift in Sources */,
 				8404E9CA1F0F239E008A04B4 /* AppDelegate.swift in Sources */,
+				8404EA0E1F0FD6CF008A04B4 /* AddWhispViewController.swift in Sources */,
+				8404EA081F0FC2A6008A04B4 /* NewsViewController.swift in Sources */,
 				8404E9FE1F0F5A0A008A04B4 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +567,7 @@
 				8404E9F01F0F239F008A04B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8404E9F11F0F239F008A04B4 /* Build configuration list for PBXNativeTarget "WhispmeTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +576,7 @@
 				8404E9F31F0F239F008A04B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8404E9F41F0F239F008A04B4 /* Build configuration list for PBXNativeTarget "WhispmeUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +585,7 @@
 				8404E9F61F0F239F008A04B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

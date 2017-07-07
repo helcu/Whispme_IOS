@@ -44,20 +44,17 @@ class MapViewController: UIViewController {
         if let location = locationManager.location {
             self.updateRegion(for: location)
             
-            // Simulate Last Parking Location
+            // Simulate
             let annotation = MKPointAnnotation()
             let latitudeDelta = 0.00125
             annotation.coordinate =
                 CLLocationCoordinate2D(
                     latitude: location.coordinate.latitude + latitudeDelta,
                     longitude: location.coordinate.longitude)
-            annotation.title = "Last Parking"
+            annotation.title = "Current Position"
             annotation.subtitle = "On \(NSDate())"
             areaMapView.addAnnotation(annotation)
         }
-        
-        
-        
     }
     
     func updateRegion(for location: CLLocation) {
